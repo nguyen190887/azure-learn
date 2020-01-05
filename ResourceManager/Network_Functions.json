@@ -1,0 +1,12 @@
+{
+  "apiVersion": "2017-04-01",
+  "type": "Microsoft.Network/publicIPAddresses",
+  "name": "[concat('publicip', copyIndex())]",
+  "copy": {
+    "count": 2
+  },
+  "location": "eastus",
+  "properties": {
+    "publicIPAllocationMethod": "dynamic"
+  }
+}
