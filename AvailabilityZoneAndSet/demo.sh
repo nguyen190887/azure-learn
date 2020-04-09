@@ -21,7 +21,7 @@ az vm create \
     --resource-group azuredemo1 \
     --name zonedvm \
     --image ubuntults \
-    --size Standard_B1ms \
+    --size Standard_B1ls \
     --admin-username azuremol \
     --generate-ssh-keys \
     --zone 3
